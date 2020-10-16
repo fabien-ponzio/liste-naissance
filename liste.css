@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 10px;
+justify-content: center;}
+header img{
+    width: 15vw;
+    padding-right: 20px;
+}
+
+
+
+.codecouleur{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.achete{
+    background-color:lightblue ;
+}
+.ami{
+    background-color: yellow;
+}
+.urgence1{
+    background-color: red ;
+}
+.urgence2{
+    background-color: lightgreen;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+footer{
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+    height: 10vh;
+    align-items: center;
+    border-radius: 20px;
+    font-family: 'Chilanka', cursive;
+}
+footer a{
+    font-family: 'Chilanka', cursive;
+}
+.tableau1 img{
+    width: 20vw;
+}
+.tableau1{
+    margin-bottom: 10px;
+}
+
+.tableau1 h1{
+    font-size: xx-large;
+}
+
+h1{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+.headerow th{
+    border: solid;
+}
+
+.categorie1{
+
+    border-top:solid;
+    border-right:solid ;
+    border-left:solid ;
+    background-color: #81ecec;
+}
+
+.categorie2{
+    border-top:solid;
+    border-right:solid ;
+    border-left:solid ;
+    background-color:#fab1a0 ;
+}
+
+.headrow th{
+    border: solid;
+}
+
+.hochet{
+    border-bottom: solid;
+}
+
+.veilleuse{
+    border-bottom: solid;
+}
+.hochet_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: lightblue;
+}
+
+.veilleuse_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: lightgreen;
+}
+
+.nacelle{
+    border-bottom: solid;
+}
+.nacelle_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: lightgreen;
+}
+
+.poussette{
+    border-bottom: solid;
+}
+.poussette_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: red;
+}
+
+.biberon{
+    border-bottom: solid;
+}
+
+.biberon_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: yellow;
+}
+
+.tetine{
+    border-bottom: solid;
+}
+
+.tetine_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: lightblue;
+}
+
+.bodies{
+    border-bottom: solid;
+}
+
+.bodies_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: lightblue;
+}
+
+.gigo{
+    border-bottom: solid;
+}
+
+.gigo_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: yellow;
+}
+
+.babyphone{
+    border-bottom: solid;
+}
+
+.babyphone_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: red;
+}
+
+.doudou{
+    border-bottom: solid;
+}
+
+.doudou_border{
+    border-right: solid;
+    border-left:solid ;
+    border-bottom: solid;
+    background-color: yellow;
+}
+
+main{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    display: flex;
+    background-color: #fab1a0;
+    border: solid #968c83;
+    width: 100%;
+    margin-bottom: 40px;
+    justify-content: center;
+    padding-bottom: 15px ;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 10px 5px;
+    margin-top: 40px;
+}
+
+.box1:hover{
+    box-shadow: 10px 10px lightgrey;
+    transition: 800ms;
+}
+
+.box2:hover{
+    box-shadow: 10px 10px lightgrey;
+    transition: 800ms;
+}
+
+.box2{
+    display: flex;
+    background-color: #81ecec;
+    flex-direction: column;
+    border: solid #968c83;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 5px;
+}
+
+.box2 input{
+    width: 50%;
+    height: 50px;
+}
+.box2 select{
+    width: 50%;
+}
+
+.bouton button{
+    padding: 15px;
+    font-size: x-large;
+    background-color:#fab1a0 ;
+    border-radius: 10px 5px;
+    border-color: #968c83;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+
+.bouton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color:#81ecec ;
+    transition: 800ms;
+    box-shadow: 10px 10px lightgrey;
+}
+
+body{
+    font-family: 'Chilanka', cursive;
+}
+
+th{
+    padding-top: 5px;
+}
+
+.lucie{
+    color:#fab1a0 ;
+}
+
+.lucien{
+    color: #81ecec ;
+    padding-bottom: 5px;
+}

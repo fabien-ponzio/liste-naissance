@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="liste.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.due-calculator.com/img/logo-predict-hair.jpg" alt="logo">
+        </div>
+        <div class="titre">
+            <p>
+             <h1> <div class="lucie"> Lucie </div> & <div class="lucien">Lucien</div> </h1>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <div class="formulaire">
+            <div class="box1">
+
+        <form method="POST" action="post">
+            <label for="nom">Nom</label> <br />
+            <input type="text" name="nom" id="nom" required><br />
+            <label for="tel">Telephone</label><br />
+            <input type="tel" name="tel" id="tel" required><br />
+            <label for="mail" name="mail" id="mail">E-mail</label><br />
+            <input type="email" name="mail" id="mail" required><br />
+
+            </div>
+
+            <div class="box2">
+                <label for="cado">Le cadeau que vous allez offrir:</label>
+                <select class="cado" name="cado" id="cado" required>
+                    <option disabled>--Pour son éveil--</option>
+                    <option>Hochet</option>
+                    <option>Veilleuse</option>
+                    <option disabled>--Pour ses premières sorties--</option>
+                    <option>Poussette</option>
+                    <option>Nacelle</option>
+                    <option disabled>--Pour ses repas--</option>
+                    <option>Biberon</option>
+                    <option>Tetine</option>
+                    <option disabled>--Pour son sommeil--</option>
+                    <option>Gigoteuse</option>
+                    <option>>Bodies</option>
+                    <option disabled>--Pour sa chambre--</option>
+                    <option>Baby-phone</option>
+                    <option>Doudou</option>
+                </select>
+                <label for="msg">Votre message:</label>
+                <input type="textarea">
+            </div>
+        </form>
+        <div class="bouton">
+            <a href=""><button>Envoyer</button></a>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="mailto:fabien.ponzio@laplateforme.io">Fabien Ponzio</a>
+        <a href="liste.html">Retour à la liste</a>
+  </footer>
+</body>
+</html>
